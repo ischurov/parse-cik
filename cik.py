@@ -178,6 +178,8 @@ class cikUIK(al_base, Base):
             u'Факс': 'fax',
             u'Адрес электронной почты': 'email',
             u'Срок окончания полномочий': 'end_date',
+            u'Адрес помещения для голосования': 'address_voteplace',
+            u'Телефон помещения для голосования': 'phone_voteplace'
         }
         for (k, v) in norm_keys.items():
             if k in attrs:
